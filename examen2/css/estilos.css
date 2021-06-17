@@ -1,0 +1,60 @@
+.imagen {
+    height: 400px;
+    width: 350px;
+    margin-left: 200px;
+}
+
+.contenido {
+    margin-left: 600px;
+    background: aqua;
+    bottom: 600px;
+    justify-content: center
+}
+
+.boto {
+    width: 230px;
+}
+
+.tex {
+    max-width: 230px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.userr {
+    width: 100px;
+    height: 100px;
+    background: aliceblue;
+    border-radius: 1000px;
+    border: black 1px solid;
+    margin: 0 auto;
+}
+
+.cont {
+    width: 700px;
+    height: 500px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: chartreuse;
+    justify-content: center
+}
+
+
+/* .row {
+    text-align: center;
+} */
+
+.cc2 {
+    width: 00px;
+    text-align: center;
+}
+
+.con {
+    margin-top: 200px;
+    justify-content: center
+}
+
+.iz {
+    margin-left: 200px;
+}

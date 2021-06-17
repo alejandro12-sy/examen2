@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiilo.css">
+
+    <link rel="icon" href="imagenes/favicon.png" type="image/png" />
+    <link rel="icon" type="image/png" href="/imágenes/mifavicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+
+
+        <header>
+            <h1 class="titulo">personas</h1>
+        </header>
+
+
+
+        <div class="cajauno">
+            <div class="form">
+
+                <h3>Fecha:</h3> <input type="text" placeholder="Fecha" class="caja" id="cliente">
+                <h3>Cliente:</h3>
+                <select Cliente: name="combo" id="doc" class="caja">
+                <option value="0">Seleccionar Doc</option>
+                <option value="FACTURA">FACTURA</option>
+                <option value="BOLETA">BOLETA</option>
+            </select>
+
+                <h3>Producto</h3>
+                <select name="producto" id="prod" class="caja">
+                <option value="0">Seleccionar Producto</option>
+                <option value="ACEITE">ACEITE</option>
+                <option value="LECHE">LECHE</option>
+            </select>
+                <h3>Precio:</h3>
+                <input type="text" placeholder="Precio" class="caja" id="precio">
+                <h3>Cantidad:</h3>
+                <input type="text" placeholder="Cantidad" class="caja" id="cant">
+
+                <button class="boton" onclick="guardar()">Registrar</button>
+
+            </div>
+
+        </div>
+        <div class="tabla">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>FECHA</th>
+
+                        <th>CANTIDAD</th>
+                        <th>PRECIO</th>
+                        <th>ACCION</th>
+                    </tr>
+                </thead>
+                <tbody id="tbd">
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+        <div class="caja2">
+
+
+        </div>
+
+    </div>
+
+    <script src="aa.js"></script>
+</body>
+
+</html>
